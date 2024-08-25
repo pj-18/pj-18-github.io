@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Colors with Names</title>
+    <style>
+        .color-container {
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+            /* Full height of the viewport */
+            margin: 0;
+        }
+
+        .color {
+            flex: 1;
+            /* Each color takes equal height */
+            display: flex;
+            justify-content: center;
+            /* Center horizontally */
+            align-items: center;
+            /* Center vertically */
+            font-size: 25px;
+            color: black;
+            /* Text color */
+            font-family: Arial, sans-serif;
+        }
+
+        .blue {
+            background-color: #d7e5e6;
+        }
+
+        .purple {
+            background-color: #e3dee9;
+        }
+
+        .starlight {
+            background-color: #e5e0d8;
+        }
+
+        .space-grey {
+            background-color: #6b696e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="color-container">
+        <div class="color blue">Blue</div>
+        <div class="color purple">Purple</div>
+        <div class="color starlight">Starlight</div>
+        <div class="color space-grey">Space Grey</div>
+    </div>
+</body>
+
+</html>
